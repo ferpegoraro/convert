@@ -23,7 +23,7 @@ amount.addEventListener("input", () => {
 form.addEventListener("submit", (event) => {
     event.preventDefault()
     
-    
+    //Verifica qual moeda for selecionada
     switch(currency.value){
         case "USD":
             convertCurrency(amount.value, USD, "US$")
